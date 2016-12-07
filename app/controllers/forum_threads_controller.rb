@@ -4,6 +4,7 @@ class ForumThreadsController < ApplicationController
 
   def index
     @forum_threads = ForumThread.all
+    @forum_threads = ForumThread.where(id: :ForumThread_id)
   end
 
   def show

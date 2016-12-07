@@ -8,4 +8,35 @@
 		<%= link_to forum_thread.title, forum_thread %>
 	</div>
 <% end %>
-		
+
+<br>
+<br>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#trending">Trending</a></li>
+    <li><a data-toggle="tab" href="#westoros">Westoros</a></li>
+    <li><a data-toggle="tab" href="#essos">Essos</a></li>
+    <li><a data-toggle="tab" href="#wall">Beyond the Wall</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="trending" class="tab-pane fade in active" data-behavior="forum_threads">
+      <h3>Trending</h3>
+      <p class="item" data-behavior="forum_thread-items"></p>
+    </div>
+    <div id="westoros" class="tab-pane fade">
+      <h3>Westeros</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="essos" class="tab-pane fade">
+      <h3>Essos</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="wall" class="tab-pane fade">
+      <h3>Beyond the Wall</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>     
+ 
+ 
